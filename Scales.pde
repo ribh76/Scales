@@ -1,6 +1,6 @@
 // FREE RED LIGHT THERAPY! (by Rishi Bhat)
 void setup() {
-  size(2000, 2000);  
+  size(100,100);  
 }
 void pattern(int x, int y){
  fill(255,255,0);
@@ -12,8 +12,8 @@ void pattern(int x, int y){
 }
 
 void draw(){
-for (int y=10; y<=2000; y+=15){
-  for (int x=5; x<=2000; x+=10){
+for (int y=10; y<=100; y+=15){
+  for (int x=5; x<=100; x+=10){
     pattern(x,y);
     }
   }
